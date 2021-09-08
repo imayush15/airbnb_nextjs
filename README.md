@@ -1,29 +1,50 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# TravelSome - A Travel Website
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+A Travel Website made with the next gen tool, NextJS, Tailwind CSS
+Checkout the website at [TravelSome](https://travelsome-nextjs-3dhcecl07-imayush15.vercel.app/)
 
-## Preview
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Screenshots
+### Homepage
+![Home](https://user-images.githubusercontent.com/65221596/132460331-27f7da39-20be-487d-9374-3b64ed474559.png)
 
-## Deploy your own
+### Calender
+![Calender](https://user-images.githubusercontent.com/65221596/132460402-1ff90188-8e11-46f4-8913-ab4d27536650.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### Loader
+![Loader](https://user-images.githubusercontent.com/65221596/132460442-d35a262a-0b01-4c75-844e-c95c2e152560.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### Search Results
+![Search](https://user-images.githubusercontent.com/65221596/132460451-b2f0aa1d-43c4-4b81-a2c4-e46a3a5783af.png)
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+  
+## Run Locally
+
+Clone the project
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+  git clone https://github.com/imayush15/travelsome-nextjs.git
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+  
