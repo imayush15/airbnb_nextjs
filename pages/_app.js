@@ -5,8 +5,8 @@ import ProgressBar from '@badrap/bar-of-progress';
 import Router from 'next/router';
 
 const progress = new ProgressBar({
-  size: 4,
-  color: '#FE595E',
+  size: 6,
+  color: '#60A5FA',
   className: 'z-50',
   delay: 100,
 });

@@ -11,6 +11,7 @@ import {
 import { useState } from 'react';
 import { DateRangePicker } from 'react-date-range';
 import { useRouter } from 'next/dist/client/router';
+import logo from '../assets/logo.png';
 
 function Header({ placeholder }) {
   const [searchInput, setSearchInput] = useState('');
@@ -50,7 +51,7 @@ function Header({ placeholder }) {
         onClick={() => router.push('/')}
         className='relative flex items-center h-10 cursor-pointer my-auto'>
         <Image
-          src='https://links.papareact.com/qd3'
+          src={logo}
           layout='fill'
           objectFit='contain'
           objectPosition='left'
@@ -65,7 +66,7 @@ function Header({ placeholder }) {
           type='text'
           placeholder={placeholder ? placeholder : 'Start your Search...'}
         />
-        <SearchIcon className='hidden md:inline-flex h-8 bg-red-400 rounded-full p-1 text-white cursor-pointer' />
+        <SearchIcon className='hidden md:inline-flex h-8 bg-blue-400 rounded-full p-1 text-white cursor-pointer' />
       </div>
       {/* Right */}
       <div className='flex items-center space-x-4 justify-end text-gray-500'>
@@ -83,7 +84,7 @@ function Header({ placeholder }) {
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}
-            rangeColors={['#FD5B61']}
+            rangeColors={['#60A5FA']}
             onChange={handleDateChange}
           />
           <div className='flex items-center border-b mb-4'>
@@ -96,7 +97,7 @@ function Header({ placeholder }) {
               onChange={(e) => setNoOfGuests(e.target.value)}
               type='number'
               min={1}
-              className='w-12 pl-3 text-lg outline-none text-red-400'
+              className='w-12 pl-3 text-lg outline-none text-blue-400'
               name=''
               id=''
             />
@@ -107,7 +108,7 @@ function Header({ placeholder }) {
               className='flex-grow text-gray-500 '>
               Cancel
             </button>
-            <button onClick={handleSearch} className='flex-grow text-red-500 '>
+            <button onClick={handleSearch} className='flex-grow text-blue-500 '>
               Submit
             </button>
           </div>
